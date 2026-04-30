@@ -1,3 +1,4 @@
+import Contribute from "@/components/sections/Contribute";
 import Developers from "@/components/sections/Developers";
 import Hero from "@/components/sections/Hero";
 import HowItWorks from "@/components/sections/HowItWorks";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <Developers />
+      <Contribute />
       <Footer />
     </>
   );

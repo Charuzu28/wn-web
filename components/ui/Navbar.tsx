@@ -1,12 +1,13 @@
 "use client";
 
-import { Github, Linkedin, LinkedinIcon, Mail } from "lucide-react";
+import { Github } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const navLinks = [
   { label: "HOW IT WORKS", href: "#howItWorks" },
   { label: "ABOUT US", href: "#developers" },
+  { label: "CONTRIBUTE", href: "#contribute" },
   { label: "CONTACT US", href: "mailto:cedricnano28@gmail.com" },
 ];
 
@@ -49,14 +50,14 @@ export default function Navbar() {
               </Link>
             ))}
 
-            <Link href={"https://github.com/cedik456/WhosNext"}>
-              <button
-                type="button"
-                aria-label="Toggle theme"
-                className="grid h-10 w-10 place-items-center rounded-full border border-white/20 bg-white/5 text-white/90 hover:bg-white/10"
-              >
-                <Github className="w-5 h-5" />
-              </button>
+            <Link
+              href="https://github.com/cedik456/WhosNext"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+              className="grid h-10 w-10 place-items-center rounded-full border border-white/20 bg-white/5 text-white/90 hover:bg-white/10"
+            >
+              <Github className="h-5 w-5" />
             </Link>
           </nav>
 
