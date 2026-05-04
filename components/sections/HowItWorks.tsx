@@ -9,7 +9,7 @@ export default function HowItWorks() {
       <div className="relative mx-auto max-w-7xl px-8 pt-28 pb-16 sm:pt-32 sm:pb-20">
         {/* push content below fixed navbar */}
 
-        <div className="grid items-center gap-2 md:grid-12 lg:grid-cols-2 ">
+        <div className="grid items-center gap-2 md:grid-cols-12 lg:grid-cols-2 ">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-white/80">
             About the Project
           </h2>
