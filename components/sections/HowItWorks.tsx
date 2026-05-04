@@ -9,12 +9,12 @@ export default function HowItWorks() {
       <div className="relative mx-auto max-w-7xl px-8 pt-28 pb-16 sm:pt-32 sm:pb-20">
         {/* push content below fixed navbar */}
 
-        <div className="grid items-center gap-2 md:grid-12 lg:grid-cols-2 ">
-          <h2 className="text-sm font-semibold uppercase tracking-wide text-white/80">
+        <div className="grid items-center text-justify md:text-start gap-2 md:gap-12 md:grid-12 lg:grid-cols-2 ">
+          <h2 className="text-sm text-center md:text-start font-semibold uppercase tracking-wide text-white/80">
             About the Project
           </h2>
 
-          <p className="mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
+          <p className=" mt-4 text-sm leading-relaxed text-white/70 sm:text-base">
             Who’s Next is a capstone project from{" "}
             <strong>Divine Word College of Legazpi</strong>. Built for job
             seekers and recruiters, it reimagines hiring as a swipe-based
