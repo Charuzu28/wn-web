@@ -32,7 +32,7 @@ export default function DevelopersSection() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.08)_0%,rgba(0,0,0,0)_50%)]" />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-6 py-20 sm:py-24">
+      <div className="relative mx-auto max-w-6xl px-8 py-20 sm:py-24">
         <div className="text-center">
           <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
             Meet the Developers

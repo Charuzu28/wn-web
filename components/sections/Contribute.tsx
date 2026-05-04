@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Contribute() {
   return (
-    <section id="contribute" className="mx-auto w-full max-w-6xl px-6 py-20">
-      <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 md:p-10">
+    <section id="contribute" className="mx-auto w-full max-w-6xl px-8 py-20">
+      <div className="rounded-3xl border border-white/10 bg-white/3 p-8 md:p-10">
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div className="max-w-xl">
             <h2 className="text-2xl font-semibold tracking-tight text-white">
