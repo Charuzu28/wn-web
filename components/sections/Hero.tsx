@@ -9,13 +9,13 @@ export default function Hero() {
         <div className="absolute -right-48 -bottom-48 h-130 w-130 rounded-full bg-white/5 blur-3xl" />
       </div>
 
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-8">
         {/* push content below fixed navbar */}
         <div className="pt-28 pb-16 sm:pt-32 sm:pb-20">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             {/* LEFT */}
             <div>
-              <h1 className="font-semibold  text-white sm:text-6xl">
+              <h1 className="font-semibold text-white sm:text-6xl">
                 Find the Right Match. Faster.
               </h1>
 
